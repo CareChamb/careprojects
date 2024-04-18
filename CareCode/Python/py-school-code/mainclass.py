@@ -4,7 +4,7 @@ def main():
     sDOB = ""
 
     while sName =="":
-        sName = "Care"
+        sName = "CARE"
         #sName = input("Enter Name: ")
 
         if not sName.isalpha():
@@ -27,23 +27,19 @@ def main():
     
     
     
-    print(CareNum.getName())
+    print(f"Client Name: {CareNum.getName()}")
+    print(f"Client D.O.B: {CareNum.getDOB()}")
+    print(f"Life Path: {CareNum.getLifePath()}")
+    print(f"Attitude: {CareNum.getAttitude()}")
+    print(f"Birthday: {CareNum.getBirthday()}")
+    print(f"Personality: {CareNum.getPersonality()}")
+    print(f"Power Name: {CareNum.getPower()}")
+    print(f"Soul: {CareNum.getSoul()}")
+    
+    
+    
     
     
     
 main()
     
-    
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
